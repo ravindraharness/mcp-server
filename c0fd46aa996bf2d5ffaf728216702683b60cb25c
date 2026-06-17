@@ -1,0 +1,102 @@
+tests/registry/fme-workspace-resolver.test.ts
+  ded033ab-16da-4dca-821c-397096814108 1-172
+src/registry/types.ts
+  ded033ab-16da-4dca-821c-397096814108 4,105-110
+src/registry/fme-workspace-resolver.ts
+  ded033ab-16da-4dca-821c-397096814108 1-146
+src/registry/index.ts
+  ded033ab-16da-4dca-821c-397096814108 584
+src/registry/toolsets/feature-flags.ts
+  ded033ab-16da-4dca-821c-397096814108 3,175,186
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 172,
+          "added_lines": 172,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "1-172",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/fme-workspace-resolver.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 7,
+          "added_lines": 7,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "4,105-110",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/types.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 146,
+          "added_lines": 146,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "1-146",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/fme-workspace-resolver.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "584",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/index.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 3,
+          "added_lines": 3,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "3,175,186",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    }
+  ],
+  "base_commit_sha": "902bc327393512db249929c37b926adf14fb394c",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "c0fd46aa996bf2d5ffaf728216702683b60cb25c",
+  "commit_time": "2026-06-17T14:57:03+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "ded033ab-16da-4dca-821c-397096814108": {
+      "accepted_lines": 329,
+      "agent_id": {
+        "id": "ded033ab-16da-4dca-821c-397096814108",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 329,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
