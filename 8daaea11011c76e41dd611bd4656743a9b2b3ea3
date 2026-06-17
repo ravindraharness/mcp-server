@@ -1,0 +1,59 @@
+src/registry/toolsets/feature-flags.ts
+  fff3e654-df01-47d9-9e0c-5fca135ac8f0 212,229,238,272,290,308,322
+  human 203
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 7,
+          "added_lines": 8,
+          "deleted_lines": 0,
+          "hash": "fff3e654-df01-47d9-9e0c-5fca135ac8f0",
+          "lines": "212,229,238,272,290,308,322",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "203",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    }
+  ],
+  "base_commit_sha": "c0fd46aa996bf2d5ffaf728216702683b60cb25c",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "8daaea11011c76e41dd611bd4656743a9b2b3ea3",
+  "commit_time": "2026-06-17T15:06:31+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "fff3e654-df01-47d9-9e0c-5fca135ac8f0": {
+      "accepted_lines": 7,
+      "agent_id": {
+        "id": "fff3e654-df01-47d9-9e0c-5fca135ac8f0",
+        "model": "composer-2.5-fast",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 8,
+      "total_deletions": 0
+    },
+    "human": {
+      "accepted_lines": 1,
+      "agent_id": null,
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 1,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
