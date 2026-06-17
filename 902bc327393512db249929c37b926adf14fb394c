@@ -1,0 +1,42 @@
+scripts/fme-validate.sh
+  ded033ab-16da-4dca-821c-397096814108 1-54
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 54,
+          "added_lines": 54,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "1-54",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "scripts/fme-validate.sh"
+    }
+  ],
+  "base_commit_sha": "03a6891643fee92d94cd86d46bf2e05daa057314",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "902bc327393512db249929c37b926adf14fb394c",
+  "commit_time": "2026-06-17T14:56:54+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "ded033ab-16da-4dca-821c-397096814108": {
+      "accepted_lines": 54,
+      "agent_id": {
+        "id": "ded033ab-16da-4dca-821c-397096814108",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 54,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
