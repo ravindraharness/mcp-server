@@ -1,0 +1,69 @@
+tests/registry/feature-flags.test.ts
+  ded033ab-16da-4dca-821c-397096814108 84,87-88,91-93,95
+src/registry/toolsets/feature-flags.ts
+  7a4ea439-64b5-4a38-a514-da547630f54f 151,158,349,362,377,400,407,425,432,441,450,467,484,492,501,536,562,569,636,643,652
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 7,
+          "added_lines": 7,
+          "deleted_lines": 5,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "84,87-88,91-93,95",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/feature-flags.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 21,
+          "added_lines": 21,
+          "deleted_lines": 7,
+          "hash": "7a4ea439-64b5-4a38-a514-da547630f54f",
+          "lines": "151,158,349,362,377,400,407,425,432,441,450,467,484,492,501,536,562,569,636,643,652",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    }
+  ],
+  "base_commit_sha": "8daaea11011c76e41dd611bd4656743a9b2b3ea3",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "bc03d7724faa74fafa9f29280e986937c7fbbcf6",
+  "commit_time": "2026-06-17T15:17:03+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "7a4ea439-64b5-4a38-a514-da547630f54f": {
+      "accepted_lines": 21,
+      "agent_id": {
+        "id": "7a4ea439-64b5-4a38-a514-da547630f54f",
+        "model": "claude-4.6-sonnet-max-thinking",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 21,
+      "total_deletions": 7
+    },
+    "ded033ab-16da-4dca-821c-397096814108": {
+      "accepted_lines": 7,
+      "agent_id": {
+        "id": "ded033ab-16da-4dca-821c-397096814108",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 7,
+      "total_deletions": 5
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
