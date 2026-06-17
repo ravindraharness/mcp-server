@@ -1,0 +1,104 @@
+tasks/fme-v2-vs-v3-investigation.md
+  ded033ab-16da-4dca-821c-397096814108 1-9,23-91,108-151
+  human 10-22,92-107,152-224
+setup-and-test.sh
+  human 1-138
+tasks/fme-migration-handoff.md
+  human 1-246
+tasks/fme-mcp-approach-analysis.html
+  human 1-817
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 122,
+          "added_lines": 122,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "1-9,23-91,108-151",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 102,
+          "added_lines": 102,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "10-22,92-107,152-224",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tasks/fme-v2-vs-v3-investigation.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 138,
+          "added_lines": 138,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-138",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "setup-and-test.sh"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 246,
+          "added_lines": 246,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-246",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tasks/fme-migration-handoff.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 817,
+          "added_lines": 817,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-817",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tasks/fme-mcp-approach-analysis.html"
+    }
+  ],
+  "base_commit_sha": "7fd8b7a16f702295620bf1720efda4774929f924",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "4ef9ee5db54f5de41503d1783e8db00dca25d5a6",
+  "commit_time": "2026-06-17T14:40:05+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "ded033ab-16da-4dca-821c-397096814108": {
+      "accepted_lines": 122,
+      "agent_id": {
+        "id": "ded033ab-16da-4dca-821c-397096814108",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 122,
+      "total_deletions": 0
+    },
+    "human": {
+      "accepted_lines": 1303,
+      "agent_id": null,
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 1303,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
