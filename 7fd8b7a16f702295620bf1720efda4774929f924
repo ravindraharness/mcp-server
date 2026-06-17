@@ -1,0 +1,68 @@
+tests/registry/extractors-fme.test.ts
+  human 1-65
+src/registry/toolsets/feature-flags.ts
+  human 2,135
+src/registry/extractors.ts
+  human 635-664
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 65,
+          "added_lines": 65,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-65",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/extractors-fme.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 2,
+          "added_lines": 2,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "2,135",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 30,
+          "added_lines": 30,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "635-664",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/extractors.ts"
+    }
+  ],
+  "base_commit_sha": "206d0faff4dd959085705377e02553152ea6f34e",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "7fd8b7a16f702295620bf1720efda4774929f924",
+  "commit_time": "2026-06-17T14:39:56+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "human": {
+      "accepted_lines": 97,
+      "agent_id": null,
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 97,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
