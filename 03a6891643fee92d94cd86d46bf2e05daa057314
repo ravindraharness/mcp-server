@@ -1,0 +1,57 @@
+.cursor/hooks.json
+  ded033ab-16da-4dca-821c-397096814108 1-11
+.cursor/hooks/validate-typecheck.sh
+  ded033ab-16da-4dca-821c-397096814108 1-59
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 11,
+          "added_lines": 11,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "1-11",
+          "overridden_lines": 0
+        }
+      ],
+      "file": ".cursor/hooks.json"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 59,
+          "added_lines": 59,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "1-59",
+          "overridden_lines": 0
+        }
+      ],
+      "file": ".cursor/hooks/validate-typecheck.sh"
+    }
+  ],
+  "base_commit_sha": "4ef9ee5db54f5de41503d1783e8db00dca25d5a6",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "03a6891643fee92d94cd86d46bf2e05daa057314",
+  "commit_time": "2026-06-17T14:42:45+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.5",
+  "prompts": {
+    "ded033ab-16da-4dca-821c-397096814108": {
+      "accepted_lines": 70,
+      "agent_id": {
+        "id": "ded033ab-16da-4dca-821c-397096814108",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 70,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
