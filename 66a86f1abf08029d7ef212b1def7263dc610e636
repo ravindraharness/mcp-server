@@ -1,0 +1,266 @@
+setup-and-test.sh
+  ded033ab-16da-4dca-821c-397096814108 62
+README.md
+  ded033ab-16da-4dca-821c-397096814108 538-539,1427
+tasks/todo.md
+  ded033ab-16da-4dca-821c-397096814108 3-27
+  human 28
+tasks/fme-v3-ai-tooling-roadmap.md
+  0b12fcb2-35bb-40bf-b5e0-f1c59d4c06cb 1-299
+src/prompts/feature-flag-rollout.ts
+  ded033ab-16da-4dca-821c-397096814108 11,15-18,24,26,29-32,41
+  human 25
+.env.example
+  ded033ab-16da-4dca-821c-397096814108 16-21,23-26
+tests/config.test.ts
+  ded033ab-16da-4dca-821c-397096814108 8,391-406,466-499
+tests/registry/feature-flags.test.ts
+  ded033ab-16da-4dca-821c-397096814108 7,165-225
+src/registry/toolsets/feature-flags.ts
+  ded033ab-16da-4dca-821c-397096814108 144,224,281,299,313,327
+.gitignore
+  ded033ab-16da-4dca-821c-397096814108 27-28
+  human 26
+src/config.ts
+  ded033ab-16da-4dca-821c-397096814108 17,100-104,218-221,244-246,249-252
+tasks/fme-v3-backend-handoff.md
+  6b35bc30-d332-414a-aead-d25a56f6f8a8 1-216
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "62",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "setup-and-test.sh"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 3,
+          "added_lines": 3,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "538-539,1427",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "README.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 25,
+          "added_lines": 25,
+          "deleted_lines": 4,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "3-27",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "28",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tasks/todo.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 299,
+          "added_lines": 299,
+          "deleted_lines": 0,
+          "hash": "0b12fcb2-35bb-40bf-b5e0-f1c59d4c06cb",
+          "lines": "1-299",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tasks/fme-v3-ai-tooling-roadmap.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 12,
+          "added_lines": 12,
+          "deleted_lines": 1,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "11,15-18,24,26,29-32,41",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "25",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/prompts/feature-flag-rollout.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 10,
+          "added_lines": 10,
+          "deleted_lines": 1,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "16-21,23-26",
+          "overridden_lines": 0
+        }
+      ],
+      "file": ".env.example"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 51,
+          "added_lines": 51,
+          "deleted_lines": 8,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "8,391-406,466-499",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/config.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 62,
+          "added_lines": 62,
+          "deleted_lines": 10,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "7,165-225",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/feature-flags.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 6,
+          "added_lines": 6,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "144,224,281,299,313,327",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 2,
+          "added_lines": 2,
+          "deleted_lines": 0,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "27-28",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "26",
+          "overridden_lines": 0
+        }
+      ],
+      "file": ".gitignore"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 17,
+          "added_lines": 17,
+          "deleted_lines": 7,
+          "hash": "ded033ab-16da-4dca-821c-397096814108",
+          "lines": "17,100-104,218-221,244-246,249-252",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/config.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 216,
+          "added_lines": 216,
+          "deleted_lines": 0,
+          "hash": "6b35bc30-d332-414a-aead-d25a56f6f8a8",
+          "lines": "1-216",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tasks/fme-v3-backend-handoff.md"
+    }
+  ],
+  "base_commit_sha": "bc03d7724faa74fafa9f29280e986937c7fbbcf6",
+  "branch": "feat/fme-hide-workspace-id",
+  "commit_sha": "66a86f1abf08029d7ef212b1def7263dc610e636",
+  "commit_time": "2026-06-29T09:49:13+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.21",
+  "prompts": {
+    "0b12fcb2-35bb-40bf-b5e0-f1c59d4c06cb": {
+      "accepted_lines": 299,
+      "agent_id": {
+        "id": "0b12fcb2-35bb-40bf-b5e0-f1c59d4c06cb",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 299,
+      "total_deletions": 0
+    },
+    "6b35bc30-d332-414a-aead-d25a56f6f8a8": {
+      "accepted_lines": 216,
+      "agent_id": {
+        "id": "6b35bc30-d332-414a-aead-d25a56f6f8a8",
+        "model": "claude-opus-4-8",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 216,
+      "total_deletions": 0
+    },
+    "ded033ab-16da-4dca-821c-397096814108": {
+      "accepted_lines": 189,
+      "agent_id": {
+        "id": "ded033ab-16da-4dca-821c-397096814108",
+        "model": "claude-sonnet-4-6",
+        "tool": "cursor"
+      },
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 189,
+      "total_deletions": 31
+    },
+    "human": {
+      "accepted_lines": 3,
+      "agent_id": null,
+      "human_author": "Your Name <you@example.com>",
+      "overriden_lines": 0,
+      "total_additions": 3,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
