@@ -1,0 +1,83 @@
+src/registry/toolsets/feature-flags.ts
+  bf5dd17f-69db-4d10-917a-89339558d2b5 137-169,1235,1324-1369,1385-1386,1395,1417
+  human 170
+tests/registry/feature-flags.test.ts
+  bf5dd17f-69db-4d10-917a-89339558d2b5 1192,1203-1204,1221,1233-1234,1536-1538,1540-1588,1590-1620
+  human 1539
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 84,
+          "added_lines": 84,
+          "deleted_lines": 4,
+          "hash": "bf5dd17f-69db-4d10-917a-89339558d2b5",
+          "lines": "137-169,1235,1324-1369,1385-1386,1395,1417",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 5,
+          "hash": "human",
+          "lines": "170",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 89,
+          "added_lines": 90,
+          "deleted_lines": 6,
+          "hash": "bf5dd17f-69db-4d10-917a-89339558d2b5",
+          "lines": "1192,1203-1204,1221,1233-1234,1536-1538,1540-1588,1590-1620",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 5,
+          "hash": "human",
+          "lines": "1539",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/feature-flags.test.ts"
+    }
+  ],
+  "base_commit_sha": "2d601ade0cfb83e143515b540e7ebfcfeb49e630",
+  "branch": "fme-v4-pr3-env-segments",
+  "commit_sha": "19f8a3508226c0c0f2abb9e67aa350e1037a6f9a",
+  "commit_time": "2026-08-14T12:54:13+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.32",
+  "prompts": {
+    "bf5dd17f-69db-4d10-917a-89339558d2b5": {
+      "accepted_lines": 173,
+      "agent_id": {
+        "id": "bf5dd17f-69db-4d10-917a-89339558d2b5",
+        "model": "grok-4.6",
+        "tool": "cursor"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 174,
+      "total_deletions": 10
+    },
+    "human": {
+      "accepted_lines": 2,
+      "agent_id": null,
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 2,
+      "total_deletions": 10
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
