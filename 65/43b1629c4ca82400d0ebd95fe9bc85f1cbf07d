@@ -1,0 +1,57 @@
+src/registry/toolsets/feature-flags.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 1203,1304,1374,1392
+tests/registry/fme-segment-remaining.test.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 6,165-168
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 4,
+          "added_lines": 4,
+          "deleted_lines": 0,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "1203,1304,1374,1392",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 5,
+          "added_lines": 5,
+          "deleted_lines": 0,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "6,165-168",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/fme-segment-remaining.test.ts"
+    }
+  ],
+  "base_commit_sha": "e1dfbe59fd4258732e9139c677b35f165e6590e9",
+  "branch": "fme-v4-remaining-segment",
+  "commit_sha": "6543b1629c4ca82400d0ebd95fe9bc85f1cbf07d",
+  "commit_time": "2026-08-17T23:18:20+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.32",
+  "prompts": {
+    "a81b869a-674c-4ae8-8121-321a8374c473": {
+      "accepted_lines": 9,
+      "agent_id": {
+        "id": "a81b869a-674c-4ae8-8121-321a8374c473",
+        "model": "grok-4.6",
+        "tool": "cursor"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 9,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
