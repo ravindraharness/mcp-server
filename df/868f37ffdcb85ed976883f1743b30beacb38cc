@@ -1,0 +1,107 @@
+src/registry/toolsets/feature-flags.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 28-29,31-66,141-142,145-146,270-272,280-281,295-298,1145,1150-1157,1167,1169,1210,1214,1222-1223
+  human 30
+tests/registry/feature-flags.test.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 812-877,1117,1127,1133-1165,1173,1247,1257,1260,1264-1301,1304,1314,1318,1328
+  human 811,1258-1259,1261-1263
+README.md
+  a81b869a-674c-4ae8-8121-321a8374c473 1507,1517
+  human 1507,1517
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 66,
+          "added_lines": 66,
+          "deleted_lines": 7,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "28-29,31-66,141-142,145-146,270-272,280-281,295-298,1145,1150-1157,1167,1169,1210,1214,1222-1223",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 16,
+          "hash": "human",
+          "lines": "30",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 147,
+          "added_lines": 152,
+          "deleted_lines": 16,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "812-877,1117,1127,1133-1165,1173,1247,1257,1260,1264-1301,1304,1314,1318,1328",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 6,
+          "added_lines": 6,
+          "deleted_lines": 6,
+          "hash": "human",
+          "lines": "811,1258-1259,1261-1263",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/feature-flags.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 2,
+          "added_lines": 2,
+          "deleted_lines": 1,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "1507,1517",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 2,
+          "hash": "human",
+          "lines": "1507,1517",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "README.md"
+    }
+  ],
+  "base_commit_sha": "47d003e6fc720b6daac773e2c1dbcc53cdb32fd0",
+  "branch": "fme-v4-traffic-type-rollout-status",
+  "commit_sha": "df868f37ffdcb85ed976883f1743b30beacb38cc",
+  "commit_time": "2026-08-19T21:40:04+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.32",
+  "prompts": {
+    "a81b869a-674c-4ae8-8121-321a8374c473": {
+      "accepted_lines": 215,
+      "agent_id": {
+        "id": "a81b869a-674c-4ae8-8121-321a8374c473",
+        "model": "grok-4.6",
+        "tool": "cursor"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 220,
+      "total_deletions": 24
+    },
+    "human": {
+      "accepted_lines": 7,
+      "agent_id": null,
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 7,
+      "total_deletions": 24
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
