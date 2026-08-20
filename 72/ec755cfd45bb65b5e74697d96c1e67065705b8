@@ -1,0 +1,74 @@
+src/registry/toolsets/feature-flags.ts
+  dd2bf44e-9592-402a-8be5-ece2033fba57 683,935,961
+  human 683,935,961
+tests/registry/feature-flags.test.ts
+  dd2bf44e-9592-402a-8be5-ece2033fba57 829-831,834
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 3,
+          "added_lines": 3,
+          "deleted_lines": 1,
+          "hash": "dd2bf44e-9592-402a-8be5-ece2033fba57",
+          "lines": "683,935,961",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 3,
+          "hash": "human",
+          "lines": "683,935,961",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 4,
+          "added_lines": 4,
+          "deleted_lines": 2,
+          "hash": "dd2bf44e-9592-402a-8be5-ece2033fba57",
+          "lines": "829-831,834",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/feature-flags.test.ts"
+    }
+  ],
+  "base_commit_sha": "10305ce109305b8f87d4d38ae2534583518ce6f8",
+  "branch": "fme-v4-traffic-type-rollout-status",
+  "commit_sha": "72ec755cfd45bb65b5e74697d96c1e67065705b8",
+  "commit_time": "2026-08-20T19:58:54+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.32",
+  "prompts": {
+    "dd2bf44e-9592-402a-8be5-ece2033fba57": {
+      "accepted_lines": 7,
+      "agent_id": {
+        "id": "dd2bf44e-9592-402a-8be5-ece2033fba57",
+        "model": "grok-4.6",
+        "tool": "cursor"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 7,
+      "total_deletions": 3
+    },
+    "human": {
+      "accepted_lines": 0,
+      "agent_id": null,
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 0,
+      "total_deletions": 3
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
