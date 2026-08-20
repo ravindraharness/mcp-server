@@ -1,0 +1,161 @@
+src/prompts/feature-flag-rollout.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 27
+  human 27
+docs/testing/fme_feature_flag_definition/test_plan.md
+  a81b869a-674c-4ae8-8121-321a8374c473 9-10,12,28,36-38,40-43,46-50
+  human 9-10,12,28,36-38,42-46
+src/registry/toolsets/feature-flags.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 624,644,666-667,691-692,723,733,752,770,788
+  human 624-625,645,667,691,722,732,751,769,787
+tests/registry/fme-feature-flag-definition-native-only.test.ts
+  a81b869a-674c-4ae8-8121-321a8374c473 1-238
+README.md
+  a81b869a-674c-4ae8-8121-321a8374c473 1492,1509
+  human 1492,1509
+tests/registry/fme-feature-flag-definition-remaining.test.ts
+  human 1-178
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "27",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 1,
+          "hash": "human",
+          "lines": "27",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/prompts/feature-flag-rollout.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 16,
+          "added_lines": 16,
+          "deleted_lines": 1,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "9-10,12,28,36-38,40-43,46-50",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 12,
+          "hash": "human",
+          "lines": "9-10,12,28,36-38,42-46",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "docs/testing/fme_feature_flag_definition/test_plan.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 11,
+          "added_lines": 43,
+          "deleted_lines": 3,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "624,644,666-667,691-692,723,733,752,770,788",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 10,
+          "hash": "human",
+          "lines": "624-625,645,667,691,722,732,751,769,787",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 238,
+          "added_lines": 238,
+          "deleted_lines": 19,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "1-238",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/fme-feature-flag-definition-native-only.test.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 2,
+          "added_lines": 2,
+          "deleted_lines": 2,
+          "hash": "a81b869a-674c-4ae8-8121-321a8374c473",
+          "lines": "1492,1509",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 2,
+          "hash": "human",
+          "lines": "1492,1509",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "README.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 178,
+          "hash": "human",
+          "lines": "1-178",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/fme-feature-flag-definition-remaining.test.ts"
+    }
+  ],
+  "base_commit_sha": "7568b273094ce46cb4fe9914d06aed0361c63a66",
+  "branch": "fme-v4-remaining-flag-definition",
+  "commit_sha": "a8f3cba109a6d6998d17563c79fc861d9d393c9f",
+  "commit_time": "2026-08-20T10:42:54+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.32",
+  "prompts": {
+    "a81b869a-674c-4ae8-8121-321a8374c473": {
+      "accepted_lines": 268,
+      "agent_id": {
+        "id": "a81b869a-674c-4ae8-8121-321a8374c473",
+        "model": "grok-4.6",
+        "tool": "cursor"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 300,
+      "total_deletions": 25
+    },
+    "human": {
+      "accepted_lines": 0,
+      "agent_id": null,
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 0,
+      "total_deletions": 203
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
