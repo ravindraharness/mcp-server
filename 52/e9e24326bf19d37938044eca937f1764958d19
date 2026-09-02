@@ -1,0 +1,107 @@
+README.md
+  b855555d-845d-4bb7-9989-56937616bc02 1558
+  human 1558
+src/registry/toolsets/feature-flags.ts
+  b855555d-845d-4bb7-9989-56937616bc02 186,214,1705-1707,1715,1726
+  human 186,214,1716,1723
+tests/registry/feature-flags.test.ts
+  b855555d-845d-4bb7-9989-56937616bc02 1847,1948,2029,2050,2055-2075,2132
+  human 1848
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "b855555d-845d-4bb7-9989-56937616bc02",
+          "lines": "1558",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 1,
+          "hash": "human",
+          "lines": "1558",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "README.md"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 7,
+          "added_lines": 7,
+          "deleted_lines": 1,
+          "hash": "b855555d-845d-4bb7-9989-56937616bc02",
+          "lines": "186,214,1705-1707,1715,1726",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 4,
+          "hash": "human",
+          "lines": "186,214,1716,1723",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "src/registry/toolsets/feature-flags.ts"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 26,
+          "added_lines": 26,
+          "deleted_lines": 4,
+          "hash": "b855555d-845d-4bb7-9989-56937616bc02",
+          "lines": "1847,1948,2029,2050,2055-2075,2132",
+          "overridden_lines": 0
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1848",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "tests/registry/feature-flags.test.ts"
+    }
+  ],
+  "base_commit_sha": "70173145e1dd6dd6175a1b59fbdcc95158d45454",
+  "branch": "fme-metric-v4-mcp",
+  "commit_sha": "52e9e24326bf19d37938044eca937f1764958d19",
+  "commit_time": "2026-09-02T10:25:44+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.32",
+  "prompts": {
+    "b855555d-845d-4bb7-9989-56937616bc02": {
+      "accepted_lines": 34,
+      "agent_id": {
+        "id": "b855555d-845d-4bb7-9989-56937616bc02",
+        "model": "composer-2.5",
+        "tool": "cursor"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 34,
+      "total_deletions": 5
+    },
+    "human": {
+      "accepted_lines": 1,
+      "agent_id": null,
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 1,
+      "total_deletions": 5
+    }
+  },
+  "repo": "https://github.com/harness/mcp-server",
+  "schema_version": "authorship/3.0.0"
+}
