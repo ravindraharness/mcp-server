@@ -1,0 +1,29 @@
+docs/coding-standards.md
+  s_84452460cddbe7::t_4261425cca638e 180
+src/client/harness-client.ts
+  s_84452460cddbe7::t_272a957d36441f 276,280,593,757
+src/client/types.ts
+  s_84452460cddbe7::t_2d2bc9c7444b3c 51-55
+src/registry/index.ts
+  s_84452460cddbe7::t_fac60516585e2e 1173
+tests/client/harness-client.test.ts
+  s_84452460cddbe7::t_e637eb26ed3bdc 940,948-949,1096-1122
+tests/registry/feature-flags.test.ts
+  s_84452460cddbe7::t_5f99a236b36136 218-226
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2335d1a62b4e56c3fd67964bc80775b07e6fbb43",
+  "prompts": {},
+  "sessions": {
+    "s_84452460cddbe7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "09a51cf1-e984-49a9-be2c-ab35030b8288",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Ravindra Singh Shekhawat <ravindra.shekhawat@harness.io>"
+    }
+  }
+}
